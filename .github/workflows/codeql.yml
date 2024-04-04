@@ -86,3 +86,27 @@ jobs:
       uses: github/codeql-action/analyze@v3
       with:
         category: "/language:${{matrix.language}}"
+                    - nombre: Activador de prueba RapidAPI
+  # Puedes fijar la confirmación exacta o la versión.
+  # usos: RapidAPI/gh-api-testing-trigger@b5adafb0971d0f6ee473dfe345886e46b3b0a2ac
+  usos: RapidAPI/gh-api-testing-trigger@v0.0.3
+  con:
+    # ID de la prueba a ejecutar
+    prueba:
+    # La ubicación en la que se ejecutará la prueba.
+    ubicación: # el valor predeterminado es AWS-US-EAST-1
+    # El ID del entorno en el que se ejecutará la prueba.
+    entorno: # opcional
+                      - nombre: Activador de prueba RapidAPI
+  # Puedes fijar la confirmación exacta o la versión.
+  # usos: RapidAPI/gh-api-testing-trigger@b5adafb0971d0f6ee473dfe345886e46b3b0a2ac
+  usos: RapidAPI/gh-api-testing-trigger@v0.0.3
+  con:
+    # ID de la prueba a ejecutar
+    prueba:
+    # La ubicación en la que se ejecutará la prueba.
+    ubicación: # el valor predeterminado es AWS-US-EAST-1
+    # El ID del entorno en el que se ejecutará la prueba.
+    entorno: # opcional
+          
+        
