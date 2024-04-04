@@ -39,7 +39,8 @@ jobs:
 
     strategy:
       fail-fast: false
-      matrix: 
+      matrix:'java-kotlin',
+      'c-cpp'
       max-parallel:
         # CodeQL supports the following values keywords for 'language': 'c-cpp', 'csharp', 'go', 'java-kotlin', 'javascript-typescript', 'python', 'ruby', 'swift'
         # Use `c-cpp` to analyze code written in C, C++ or both
