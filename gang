@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+<title>ese GPT lokote beats</title>
+<link rel="stylesheet"href="styles.css">
+</head>
+<body>
+<header>
+<h1>ese GPT lokote beats</h1>
+</header>
+<main>
+<div class="beat-pad">
+<!--Botones para los beats-->
+<button class="beat-btn"
+data-sound="beat1.mp3">Beat1</button>
+<button class="beat-btn"
+data-sound="beat2.mp3>Beat2</button>
+</div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
